@@ -99,7 +99,7 @@ const App = () => {
               <h1 className="text-success text-uppercase text-center">
                 {winMessage ? winMessage : draw }
               </h1>
-              <Button color="success" block onClick={relaodGame}>Reload the Game</Button>
+//               <Button color="success" block onClick={relaodGame}>Reload the Game</Button>
               <h1 className="text-center text-warning">
               {isCross ? "Cross" : "Circle"} turns
               {/* Restart the game */}
